@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="servicestyle.css">
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+    <title>TRIPLE NA PHARMACY</title>
+    <style type="text/css">
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: white;">
+
+    <header>
+        <h1>TRIPLE NA PHARMACY</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <!-- Home Section -->
+    <!-- Slideshow-->
+    <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="Images/medicine1.jpg" style="width:100%">
+     </div>
+     
+     <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="Images/medicine2.jpg" style="width:100%">
+     </div>
+     
+     <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="Images/medicine3.jpg" style="width:100%">
+     </div>
+     
+     <a class="prev" onclick="plusSlides(-1)">❮</a>
+     <a class="next" onclick="plusSlides(1)">❯</a>
+     
+     </div>
+     <br> 
+
+        <section id="home">
+            <marquee width="100%"><h2><i>~Welcome to TRIPLE NA Pharmacy~</i></h2></marquee>
+            <br>
+            <h1>THE PLACE WHERE YOU</h1>
+            <h1>FIND THE CURE OF YOURSELF</h1>
+            <hr>
+            <h2 align="center">FOR ADULTS & CHILDREN</h2>
+            <p align="center">Monday to Friday: 10am-10pm</p>
+            <p align="center">Saturday, Sunday & Public Holiday: 10am-9pm</p>
+            <br>
+            <a href="#services" class="centered-link" onclick="showAlert()">LEARN MORE</a>
+        </section>
+
+        <hr>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <marquee width="100%"><h2><i>~Welcome to TRIPLE NA Pharmacy~</i></h2></marquee>
+            <br>
+            <h1>ABOUT US</h1>
+            <p>Triple NA Pharmacy was <b>established to provide unrivaled customer service and patient care.</b></p>
+            <p>We are happy to supplement the services of our community's healthcare practitioners by providing accurate and timely prescription distribution, as well as consulting and medication treatment management services. Our knowledgeable chemists and technicians work hard to deliver timely and courteous service. We will not compromise on quality or accuracy.</p>
+            <hr>
+            <div id="kiri">
+                <img src="Images/medicine.jpg" width="200px" height="50%">
+            </div>
+            <div id="kiri">
+                <img src="Images/pharmacist2.jpg" width="200px" height="50%">
+            </div>
+            <div id="kiri">
+                <img src="Images/pharmacy.jpg" width="200px" height="50%">
+            </div>
+            <div class="clear"></div>
+        </section>
+
+        <hr>
+
+        <!-- Services Section -->
+        <section id="services">
+            <marquee width="100%"><h2><i>~Welcome to TRIPLE NA Pharmacy~</i></h2></marquee>
+            <h1>OUR SERVICES</h1>
+            <h3><i>How can we help you today?</i></h3>
+            <hr>
+            <br>
+            <img src="Images/blood-transfusion.png" width="110px">
+            <p>We offer fast and affordable blood test service, with no appointment needed.</p>
+            <img src="Images/calendar.png" width="100px">
+            <p>We keep track of your visits in our database!</p>
+        </section>
+
+        <hr>
+
+        <!-- Product Section -->
+        <section id="product">
+            <marquee width="100%"><h2><i>~Welcome to TRIPLE NA Pharmacy~</i></h2></marquee>
+            <h1>PRODUCTS</h1>
+            <video width="500" autoplay muted>
+                <source src="vid.mp4" type="video/mp4">
+            </video>
+            <br>
+            <p>We offer many more products suitable for various ages. Visit our pharmacy in Penang for more information!</p>
+        </section>
+
+        <hr>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <marquee width="100%"><h2><i>~Welcome to TRIPLE NA Pharmacy~</i></h2></marquee>
+            <br>
+            <h1>CONTACT US</h1>
+            <form action="https://dev.jtmkpsp.my/process.php" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+                <table>
+                    <tr>
+                        <td><label for="nama">Full Name :</label></td>
+                        <td><input type="text" name="nama" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emel">Email :</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Write a message :</label></td>
+                        <td><textarea name="messages" id="messages"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Nombor Telefon :</label></td>
+                        <td><input type="text" name="nombor_telefon" id="nombor_telefon"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">SUBMIT</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    
+        <div class="center" align="center">
+                <div id="center" align="center">
+                    <img src="Images/wawa.jpg" width="80">
+                    <p>NUR AMIRA NAJWA</p>
+                    <p>+6011-13342858</p>
+                    <img src="Images/alia.jpg" width="80">
+                    <p>NUR ALIA</p>
+                    <p>+6011-21482149</p>
+                    <img src="Images/fie.jpg" width="80">
+                    <p>NUR AIN FITRIAH</p>
+                    <p>+6010-7974150</p>
+                </div>
+
+                <hr>
+
+                <h2 align="center"> VISIT US </h2>
+                <a href="https://www.instagram.com/na.pharmacy/" target="_blank"><img src="Images/instagram.png" width="30">@NAPharmachy
+                    <p><a href="https://www.facebook.com/pages/NA%20Pharmacy/104438291885329/" target="_blank"><img src="Images/facebook.png" width="30">@NA Pharmachy</p>
+                    </a>
+                    <div class="clear"></div>
+            </form>
+            </form>
+        </section>
+
+        <!-- JavaScript Integration -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="index.js"></script>
+    </body>
+
+    </html>
